@@ -1,12 +1,13 @@
-import React from 'react';
-import { mount } from 'enzyme';
 import CommentBox from 'components/CommentBox';
+import { mount } from 'enzyme';
+import React from 'react';
+import Root from 'Root';
 
 
 let component;
 
 beforeEach(() => {
-  component = mount(<CommentBox />);
+  component = mount(<Root><CommentBox /></Root>);
 });
 
 afterEach(() => {
