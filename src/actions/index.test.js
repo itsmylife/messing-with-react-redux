@@ -1,5 +1,5 @@
-import { saveComment } from 'actions/index';
-import { SAVE_COMMENT } from 'actions/types';
+import { fetchComments, saveComment } from 'actions/index';
+import { FETCH_COMMENTS, SAVE_COMMENT } from 'actions/types';
 
 describe('saveComment ', () => {
 
@@ -12,6 +12,20 @@ describe('saveComment ', () => {
     const payload = 'New Comment';
     const action = saveComment(payload);
     expect(action.payload).toEqual(payload);
+  });
+
+});
+
+describe('fetchComments', () => {
+
+  it('has the correct type', () => {
+    const action = fetchComments();
+    expect(action.type).toEqual(FETCH_COMMENTS);
+  });
+
+  it('has the correct payload', () => {
+    const action = fetchComments();
+    expect(action.payload).toBeDefined();
   });
 
 });
