@@ -1,4 +1,4 @@
-import * as actions from 'actions';
+import * as actions from 'actions/commentsActions';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 

@@ -1,4 +1,4 @@
-import { fetchComments, saveComment } from 'actions/index';
+import { fetchComments, saveComment } from 'actions/commentsActions';
 import { FETCH_COMMENTS, SAVE_COMMENT } from 'actions/types';
 
 describe('saveComment ', () => {
