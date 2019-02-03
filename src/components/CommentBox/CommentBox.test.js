@@ -1,4 +1,4 @@
-import CommentBox from 'components/CommentBox';
+import CommentBox from 'components/CommentBox/CommentBox';
 import { mount } from 'enzyme';
 import React from 'react';
 import Root from 'Root';
@@ -17,7 +17,7 @@ afterEach(() => {
 
 it('has a text area and a button', () => {
   expect(component.find('textarea').length).toEqual(1);
-  expect(component.find('button').length).toEqual(1);
+  expect(component.find('button').length).toBeGreaterThan(1);
 });
 
 describe('the text area ', () => {

@@ -1,6 +1,6 @@
-import App from 'components/App';
-import CommentBox from 'components/CommentBox';
-import CommentList from 'components/CommentList';
+import App from 'components/App/App';
+import CommentBox from 'components/CommentBox/CommentBox';
+import CommentList from 'components/CommentList/CommentList';
 import { shallow } from 'enzyme';
 import React from 'react';
 
