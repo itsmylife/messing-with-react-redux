@@ -1,8 +1,8 @@
-import { SAVE_COMMENTS } from './types';
+import { SAVE_COMMENT } from './types';
 
 export function saveComment(comment) {
   return {
-    type: SAVE_COMMENTS,
+    type: SAVE_COMMENT,
     payload: comment
   };
 }
