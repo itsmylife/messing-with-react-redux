@@ -1,4 +1,4 @@
-import App from 'components/App/App';
+import App from 'components/App';
 import { mount } from 'enzyme';
 import moxios from 'moxios';
 import React from 'react';

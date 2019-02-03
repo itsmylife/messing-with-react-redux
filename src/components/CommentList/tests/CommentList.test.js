@@ -1,4 +1,4 @@
-import CommentList from 'components/CommentList/CommentList';
+import CommentList from 'components/CommentList';
 import { mount } from 'enzyme';
 import React from 'react';
 import Root from 'Root';

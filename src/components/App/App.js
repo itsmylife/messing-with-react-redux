@@ -1,5 +1,5 @@
-import CommentBox from 'components/CommentBox/CommentBox';
-import CommentList from 'components/CommentList/CommentList';
+import CommentBox from 'components/CommentBox';
+import CommentList from 'components/CommentList';
 import React from 'react';
 
 const App = () => {
