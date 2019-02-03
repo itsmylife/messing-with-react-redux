@@ -21,7 +21,6 @@ it('has a text area and a button', () => {
 });
 
 describe('the text area ', () => {
-
   let testComment = 'test comment';
 
   beforeEach(() => {
