@@ -15,7 +15,7 @@ afterEach(() => {
 });
 
 
-it('has a text area and a button', () => {
+it('has a text area and more than a button', () => {
   expect(component.find('textarea').length).toEqual(1);
   expect(component.find('button').length).toBeGreaterThan(1);
 });
