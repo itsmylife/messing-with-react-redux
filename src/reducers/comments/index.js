@@ -1,1 +1,1 @@
-export { default } from './commentsReducer';
+export { default } from './comments';
